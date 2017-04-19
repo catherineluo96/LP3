@@ -251,7 +251,7 @@ section.container.headerbackground {
    .logo .mobile {
     display: block;
 	height: 100px;
-	background: url('/img/aaas/2018/banner_bg.png') 50% top no-repeat;
+	background: url('style/aaas/stm_banner.jpg') 50% top no-repeat;
   }
 }
 
