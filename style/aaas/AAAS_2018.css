@@ -1,0 +1,400 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+/*****************************************
+NAVIGATION
+*****************************************/
+.container {
+text-align: left;
+}
+
+.menuBar ul {
+  display: inline;
+  text-align: left;
+  margin: 0;
+  padding: 5px;
+}
+
+    .menuBar ul li {
+      display: inline-block;
+      font-size: 1em;
+      text-transform: uppercase;
+      padding: 5px
+    }
+
+.orgNav {
+  border-top: 5px solid #005699;
+}
+
+    .orgNav .menuBar {
+      height: 60px;
+    }
+
+        .orgNav .menuBar ul li a {
+          color: #005699;
+          float: none;
+          font-weight: 600;
+          line-height: 1;
+          margin: 0 25px 0 0;
+          padding: 7px 0;
+          text-decoration: none;
+          text-shadow: none;
+          text-transform: uppercase;
+          font-size: .81em;
+        }
+
+
+.clientNav .menuBar {
+background: #e5e5e5;
+box-shadow: 0 7px 6px -8px #000000;
+height: 60px;
+line-height: 40px;
+font-size: 1.05em;
+overflow: visible !important;
+}
+
+    .clientNav .menuBar ul li a {
+    color: #164e6c;
+    line-height: 48px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    float: none;
+    padding: 12px 14px;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .96em;
+    margin-right: 0;
+    }
+
+        .clientNav .menuBar ul li a:hover {
+          background-color: #777;
+          color: #fff;
+          text-decoration: none;
+          line-height: 30px;
+          margin-top: 7px;
+        }
+
+.member {
+  background: #e03a3e;
+border-left: solid 2px #ffffff;
+border-radius: 0 0 6px 6px;
+-webkit-border-radius: 0 0 6px 6px;
+-mox-border-radius: 0 0 6px 6px;
+color: #ffffff;
+font-size: .9em;
+margin: 0;
+position: absolute;
+top: -5px;
+/* right: 269px; */
+text-shadow: none;
+text-transform: none;
+font-weight: 600;
+padding: 14px 10px 8px!important;
+}
+
+.member a {
+  color: white!important;
+  margin: 0!important;
+}
+
+.sidenavbar ul {
+ line-height: 20px;
+overflow: hidden;
+
+}
+.sidenavbar ul li {
+ background-color: #003966;
+border-radius: 6px;
+cursor: pointer;
+text-align: center;
+font-size: 0.9em;
+margin: 5px;
+padding: 7px 15px;
+text-transform: uppercase;
+}
+    .sidenavbar ul li a {
+      color: #fff;
+display: block;
+    }
+a:hover {
+text-decoration: none;
+color: #005699;
+}
+
+.separator {  
+  background-color: #ecf1f1;
+  text-align: center;
+  margin: 2em auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+.separator h1 {
+padding: 1em 0 .2em 0;
+margin-bottom: 0;
+}
+
+.separator .deadline {
+ font-weight: bold;
+margin-bottom: 2em;
+padding-bottom: 2em;
+}
+h1, h2, h3 {margin-bottom: 15px; font-family: 'Open Sans', sans-serif, Arial, Verdana; font-weight: 400;}
+h4, h5, h6 {margin-bottom: 8px; font-family: 'Open Sans', sans-serif, Arial, Verdana; font-weight: 400;}
+h1, h2, h3, h4, h5, h6, .pagetitle a, .pagetitle a:visited {color: #303030;}
+h1 {font-size: 30px; line-height: 30px;}
+h2 {font-size: 25px; line-height: 26px;}
+h3 {font-size: 16px; line-height: 24px;}
+h4 {font-size: 13px; line-height: 22px;}
+h5 {font-size: 12px; line-height: 20px;}
+h6 {font-size: 11px; line-height: normal;}
+
+.bannerbar {
+height: 150px;
+background: #b1aaaa; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #b1aaaa 0%, #616060 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#b1aaaa), color-stop(100%,#616060)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #b1aaaa 0%,#616060 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #b1aaaa 0%,#616060 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #b1aaaa 0%,#616060 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #b1aaaa 0%,#616060 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1aaaa', endColorstr='#616060',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.headerbackground  {
+	background-color: #005196;
+	}
+	.headerbackground .logo {
+		text-align:center;
+		
+	}
+	.headerbackground .desktop {
+		background: #005196 url('stm_banner.jpg') center top no-repeat;
+		}
+		.headerbackground .desktop a {
+			display: inline-block;
+			margin-left: 60px;
+		}
+@media (max-width: 1350px) {
+	.headerbackground .desktop {
+		background: #005196 url('stm_banner.jpg') center top no-repeat;
+	}
+}
+@media (max-width: 980px) {
+	.headerbackground .desktop {
+		background: #005196 url('stm_banner.jpg') 63% top no-repeat;
+	}
+}
+
+.banner img, html#range_1 .banner img {
+	width: none !important;
+	height: 100%;
+	width: auto;
+	/*padding-top: 15px;*/
+	font-size: 0;
+	color: transparent;
+	vertical-align: middle;
+}
+.desktop {
+	height: 200px;
+	margin: 0 auto 0 -60px;
+	}
+
+.bannerbar .logo img {
+  padding-bottom: 0px;
+}
+
+section.container.headerbackground {
+  position: static;
+  width: 100%;
+  text-align: center;
+}
+
+.offscreen {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+.bannerFiller {
+	background-image: url('style/aaas/stm_banner.jpg');
+	height: 100px;
+	background-repeat: repeat-x;
+}
+
+
+.logo .mobile {
+  display: none;
+}
+@media (max-width: 620px) {
+    .banner img, html#range_1 .banner img {
+		width: auto;
+		height: 140%;
+		margin-top: -15px;
+    }
+
+    .logo .desktop {
+      display: none;
+    }
+
+   .logo .mobile {
+    display: block;
+	height: 100px;
+	background: url('/img/aaas/2018/banner_bg.png') 50% top no-repeat;
+  }
+}
+
+a, a:visited, .colortext { text-decoration:none; color:#00acff;}
+a:hover{ text-decoration:none; /*color:#00acff;*/ color: #0088cc;}
+a img{ border:none}
+
+/***************************** FOOTER ******************/
+
+.socialFooter ul {
+    list-style: outside none none;
+}
+
+.socialFooter ul li {
+    padding: 0 6px;
+    float: left;
+    list-style-type: none;
+}
+
+
+ 
+#footer-logo-container {
+	background: #7faa7c;
+	padding: 10px 0;
+	text-align:center;
+}
+
+#footer-logo-container > p {
+	margin-bottom: 0;
+}
+
+#footer-logo {
+	height:62px; 
+	width:206px; 
+	margin:0px auto; 
+	background-color:transparent;
+}
+#footer-fullname a {color: #fff; font-size: 1.0em; font-weight: 300; letter-spacing: 6px; font-family: Open Sans; sans-serif; text-transform: uppercase; /*color: #666;*/}
+#footer-theme-container {/*width:100%;background-color:#000;height:20px;*/display:none;}
+
+footer {
+  background-color: #f9f9f9;
+}
+
+#footer-social-container ul, #footer-admin-container ul {
+  display: block;
+}
+
+
+#footer-social-container ul li {
+  display: inline-block;
+margin: 0px 25px 0px 25px;
+font-size: 12px;
+font-weight: 600;
+}
+#footer-admin-container {
+padding: 43px 0px 35px 0px;
+text-align: center;
+}
+.footer-admin li {
+display: inline-block;
+margin: 0px 13px 0px 13px;
+font-size: 12px;
+font-weight: 600;
+color: #666;
+}
+
+.footer-admin li a {
+	color:#666;
+}
+.footer-admin li a:hover {
+	color:#0088cc;
+}
+
+#footer-social-container {
+  padding: 43px 0px 35px 0px;
+text-align: center;
+border-top: 1px solid #005699;
+border-bottom: 1px solid #005699;
+}
+
+a .footer-social-icon {
+	height:36px;
+	width:36px;
+	border-radius:3px;
+	/*border:1px solid #0088cc;*/
+	border: 1px solid #00acff;
+	margin:0px auto 12px auto;
+}
+a:hover .footer-social-icon {
+	border:1px solid #005699;
+}
+.footer-social {
+}
+.footer-social li a{
+	display:inline-block;
+	margin:0px 25px 0px 25px;
+	font-size:12px;
+	font-weight:600;
+  color: #00acff;
+}
+
+.footer-social li a:hover {
+  color: #0066B3;
+}
+
+li.twitter2{ display:none !important;}
+li.google{ display:none !important;}
+
+a .social-icon-twitter {background: transparent url('http://meetings.aaas.org/wp-content/uploads/AM15-social-icon-tw.png') center top no-repeat;}
+a:hover .social-icon-twitter {background: transparent url('http://meetings.aaas.org/wp-content/uploads/AM15-social-icon-tw-hover.png') center top no-repeat;}
+a .social-icon-facebook {background: transparent url('http://meetings.aaas.org/wp-content/uploads/AM15-social-icon-fb.png') center top no-repeat;}
+a:hover .social-icon-facebook {background: transparent url('http://meetings.aaas.org/wp-content/uploads/AM15-social-icon-fb-hover.png') center top no-repeat;}
+a .social-icon-google {background: transparent url('http://meetings.aaas.org/wp-content/uploads/AM15-social-icon-google.png') center top no-repeat;}
+a:hover .social-icon-google {background: transparent url('http://meetings.aaas.org/wp-content/uploads/AM15-social-icon-google-hover.png') center top no-repeat;}
+
+a .footer-social-icon {
+height: 36px;
+width: 36px;
+border-radius: 3px;
+border: 1px solid #0088cc;
+margin: 0px auto 12px auto;
+}
+/******************** Navigation Toggle ***********************/
+
+body.two #instuctions, body.two #review, body.two #begin {
+  display: none;
+} 
+
+body.three #instructions, body.three #Step1, body.three #begin {
+  display: none;
+} 
+
+body.four #instructions, body.four #Step1, body.four #review {
+  display: none;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+
+div#wrapper-header .container {
+    min-height: 30em;
+}
+
