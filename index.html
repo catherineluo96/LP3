@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 
@@ -16,16 +16,13 @@
 var ADAPT_CONFIG = {
 	// Where is your CSS?
 	path: 'https://aaas.confex.com/static/js/adapt/css/',
-
 	// false = Only run once, when page first loads.
 	// true = Change on window resize and page tilt.
 	dynamic: true,
-
 // Optional callback... myCallback(i, width)
 	callback: function (i, width) {
 		document.documentElement.id = 'range_' + i;
 	},
-
 	// First range entry is the minimum.
 	// Last range entry is the maximum.
 	// Separate ranges by "to" keyword.
@@ -33,7 +30,6 @@ var ADAPT_CONFIG = {
 		'0px    to 760px  = mobile.css',
 		'760px  to 980px  = 720.css',
 		'980px            = 960.css'
-
 	]
 };
 </script>
@@ -41,22 +37,16 @@ var ADAPT_CONFIG = {
 <script src="https://aaas.confex.com/static/js/adapt/js/adapt.js"></script>
 
 <script type="text/javascript">
-
 	function hideAddressBar() {
 	  if(!window.location.hash) {
-
 		  if(document.height < 600) {
-
 			  document.body.style.height = (window.outerHeight + 50) + 'px';
 		  }
-
 		  setTimeout( function(){ window.scrollTo(0, 1); }, 50 );
 	  }
 	}
-
 	window.addEventListener("load", function(){ if(!window.pageYOffset){ hideAddressBar(); } } );
 	window.addEventListener("orientationchange", hideAddressBar );
-
 </script>
  
 
@@ -66,7 +56,7 @@ var ADAPT_CONFIG = {
  
 <link  id="style2"  href="https://aaas.confex.com/style/aaas/cfp_2018.css" rel="stylesheet" type="text/css" /> 
  
-<link  id="style3"  href="style/aaas/AAAS_2018.css" rel="stylesheet" type="text/css" /> 
+<link  id="style3"  href="/style/aaas/AAAS_2018.css" rel="stylesheet" type="text/css" /> 
         
 
 <title>Call for AAAS Translational Medicine Proposals</title>
@@ -210,7 +200,7 @@ Examples of topics that best fit the flash talk format can be found in the Focus
 	Proposals which showcase a specific paper’s broader, practical applications will be given higher consideration over narrow, theoretical research proposals.
 	</p>
 
-	<p><i>Research topics of particular interest include:</i></p>
+	<p><i>Research topics of particular interest include:</i>
 		<ul style="margin-top:-10px;">
 
 			<li>Precision medicine (including targeted therapies, medical imaging, and diagnostics)</li>
@@ -218,6 +208,7 @@ Examples of topics that best fit the flash talk format can be found in the Focus
 			<li>Gene editing and stem cell research</li>
 			<li>Big data and computational biology</li>
 		</ul>
+	</p>
 
 	<p>
 	We highly encourage research-centric proposals to include visual media such as videos and images. 
@@ -242,7 +233,7 @@ Examples of topics that best fit the flash talk format can be found in the Focus
 	As a subset of our journal’s audience includes regulators and policy-makers, this set of sessions will be dedicated towards discussing the social changes and opinions that help and hinder translational efforts. 
 	</p>
 	
-	<p><i>Topics of particular interest in these sessions include:</i></p>
+	<p><i>Topics of particular interest in these sessions include:</i>
 		<ul style="margin-top:-10px;">
 
 			<li>Federal science and healthcare policies</li>
@@ -251,6 +242,7 @@ Examples of topics that best fit the flash talk format can be found in the Focus
 			<li>Higher education surrounding biomedical research </li>
 			<li>Methods and barriers in translational research </li>
 		</ul>
+	</p>
 	
 	<p>
 	It is recommended that policy and education sessions be submitted for the 90-minute discussion format. 
@@ -269,13 +261,13 @@ Examples of topics that best fit the flash talk format can be found in the Focus
 	</p>
 
 <h3>Note on speakers</h3>
-	<p style="margin-top:-10px;">
+	<p>
 	In addition to the relevance and multidisciplinary reach of the submitted content, the speakers’ expertise and ability will also be evaluated. 
 	As such, it is imperative that all information outlined in the AAAS annual meeting submission portal (linked below) be provided in order to verify the speaker’s caliber. 
 	</p>
 
 <h3>Note on conflicts of interest</h3>
-	<p style="margin-top:-10px;">
+	<p>
 	AAAS and <i>Science Translational Medicine</i> require clear disclosure of any and all affiliations, funding sources, or financial holdings which may be perceived to have influenced the presented material. 
 	Speakers will be asked to confirm that there are no known conflicts of interest or to list all conflicts of interest. 
 	</p>
@@ -303,14 +295,15 @@ For detailed information on session formats and evaluation criteria, please refe
 		<h4 class="programtitle clearfix">
 
 		15 MINUTE FLASH TALKS
-			<p class="deadline">
-				<b>Deadline for New Submissions:</b> 
-				<span class="deadline">Thursday, May 11, 2017 11:59 p.m. PT</span>
-			</p>
+		<p class="deadline"><b>Deadline for New Submissions:</b> <span class="deadline">Thursday, May 11, 2017 11:59 p.m. PT</span></p>
 
 		<input class="btn" type="button" onClick="parent.location='https://aaas.confex.com/aaas/2018/flashsymp/sessions/index.cgi'" value="Begin a Submission">
 
 		</h4> 
+
+					
+						
+		</h4>
 			
 		</form>
 					
@@ -481,5 +474,3 @@ For detailed information on session formats and evaluation criteria, please refe
 
 </body>
 </html>
-
-   
